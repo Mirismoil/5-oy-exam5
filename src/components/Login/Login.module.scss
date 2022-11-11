@@ -1,0 +1,50 @@
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.headerTitle {
+  @apply mb-[100px] mt-[20px];
+}
+.titleBig {
+  @apply text-center mb-[100px] font-bold text-3xl;
+}
+.title {
+  @apply text-[36px] font-[500];
+  @apply text-[#006AFF];
+}
+.form {
+  @apply text-center flex flex-col;
+  width: 100%;
+}
+.bolt {
+  @apply text-[48px] font-[500] text-start;
+}
+.wrap__input {
+  @apply flex flex-col text-center items-center w-[100%];
+}
+.input {
+  @apply w-[500px] h-[66px] mb-20 mt-20 p-8 rounded bg-slate-300;
+}
+.input1 {
+  @apply w-[500px] h-[66px] p-8 rounded bg-slate-300;
+}
+.wrap__btn {
+  @apply flex justify-center;
+}
+.btn {
+  @apply w-[500px] text-[white] mt-20 mb-20 p-4 bg-black rounded cursor-pointer;
+}
+.btn:hover {
+  background-color: #333;
+}
+.btn:active {
+  background-color: rgb(49, 43, 43);
+}
+@media only screen and (max-width: 580px) {
+  .input1,
+  .input {
+    width: 100%;
+  }
+}

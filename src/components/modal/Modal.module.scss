@@ -1,0 +1,19 @@
+.wrapper {
+  @apply hidden w-[500px] h-[350px] absolute top-[9%] left-[25%] p-4;
+  box-shadow: 5px 5px 5px 5px #3333337a;
+  @apply bg-white;
+  border-radius: 10px;
+}
+.box_h2 {
+  @apply font-semibold text-3xl mb-5;
+}
+.wrap_titles {
+  @apply flex mb-3 items-center justify-between text-2xl font-normal;
+}
+.wrap_titles__span {
+  @apply text-lg opacity-60;
+}
+.box__text {
+  @apply mb-3;
+  border-bottom: 1px solid black;
+}

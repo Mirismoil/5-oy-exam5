@@ -1,0 +1,39 @@
+.footer {
+  @apply p-[40px] flex items-center justify-between bg-black;
+}
+.wrappFooter,
+.items__list {
+  @apply list-none m-0 p-0 text-white;
+}
+.items__list {
+  @apply mt-3;
+}
+.item {
+  @apply text-xl font-bold;
+}
+.list {
+  @apply mb-3;
+}
+.listLink {
+  @apply text-white text-sm font-normal;
+  border-bottom: 2px solid transparent;
+}
+.listLink:hover {
+  border-bottom: 2px solid white;
+}
+.listLink:active {
+  @apply text-[#8a8a8a];
+  border-bottom: 2px solid red;
+}
+
+@media only screen and (max-width: 800px) {
+  .footer {
+    @apply flex items-start flex-col;
+  }
+  .wrapImg {
+    @apply mb-10;
+  }
+  .wrappFooter {
+    @apply mt-10;
+  }
+}

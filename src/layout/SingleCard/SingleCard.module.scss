@@ -1,0 +1,48 @@
+.container {
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.wrappCard {
+  @apply w-[100%] flex justify-around mt-[200px];
+}
+.CardLeft {
+  @apply flex flex-col;
+}
+.cardLeftBtn {
+  @apply mb-5;
+}
+.cardRight__img {
+  @apply w-[500px] h-[500px];
+}
+.wrapRight__Text {
+  @apply w-[733px];
+}
+.cardRight__span {
+  @apply font-normal text-lg text-[#777777];
+}
+.cardRight__title__wrapp {
+  @apply mt-6 mb-6;
+}
+.cardRight__title {
+  @apply font-normal text-2xl text-[#474747];
+}
+.wrapsans {
+  @apply mb-12;
+}
+.cardRight__span1 {
+  @apply font-normal text-base text-[#777777];
+}
+.wrapRight__Text {
+  @apply mb-[100px] w-[700px];
+}
+.right__text {
+  @apply font-normal text-lg text-[#474747];
+}
+.wrapRight__title {
+  @apply font-normal text-2xl mb-[40px];
+}
+@media only screen and (max-width: 756px) {
+  .wrapRight__Text {
+    width: 100%;
+  }
+}

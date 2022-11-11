@@ -1,0 +1,18 @@
+.wrapper {
+  @apply w-[500px] h-[550px] absolute top-[9%] left-[25%] p-4;
+  box-shadow: 5px 5px 13px 6px #5858587a;
+  @apply bg-white;
+  border-radius: 10px;
+}
+.box {
+  @apply flex items-center justify-between mb-8;
+}
+.X {
+  @apply text-2xl font-bold;
+}
+.links {
+  @apply flex items-center flex-col;
+}
+.linka__link {
+  @apply text-2xl mb-20;
+}
